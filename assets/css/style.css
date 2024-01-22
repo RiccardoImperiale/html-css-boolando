@@ -66,6 +66,7 @@ nav {
 .cards_container {
     display: flex;
     justify-content: space-between;
+    margin: 2rem auto;
     gap: 1rem;
     flex-wrap: wrap;
 }
@@ -153,11 +154,13 @@ h5,
 /* #region Footer  */
 
 footer {
+    background-color: #1A1A1A;
     margin-top: 5rem;
     padding: 2rem 0;
-    background-color: black;
-    /* width: 100%; */
     color: white;
+}
+
+footer .container {
     display: flex;
     justify-content: space-between;
 }
