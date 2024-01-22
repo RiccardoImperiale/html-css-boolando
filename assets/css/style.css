@@ -35,6 +35,10 @@ a {
 header {
     background-color: #FF6900;
     box-shadow: 0 1px 10px rgb(179, 179, 179);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 nav {
@@ -63,12 +67,14 @@ nav {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .card {
     height: 700px;
-    width: 100%;
-    margin-top: 3rem;
+    width: 30%;
+    margin-top: 5rem;
+    flex-grow: 1;
 }
 
 .card_image {
@@ -119,7 +125,7 @@ nav {
 
 /* Card Text ------------------------------> */
 
-.card_text{
+.card_text {
     margin-top: .25rem;
 }
 
@@ -143,3 +149,43 @@ h5,
 }
 
 /* #endregion Cards  */
+
+/* #region Footer  */
+
+footer {
+    margin-top: 5rem;
+    padding: 2rem 0;
+    background-color: black;
+    /* width: 100%; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site_info h4 {
+    font-size: .8rem;
+}
+
+.info_links,
+.social_links {
+    margin-top: .5rem;
+}
+
+.site_info a,
+.socials a {
+    font-size: .8rem;
+    margin-right: .5rem;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-brands {
+    font-size: 1.3rem;
+}
+
+
+
+/* #endregion Footer  */
