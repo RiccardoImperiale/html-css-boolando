@@ -1,0 +1,59 @@
+
+/* #region Utilities */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1380px;
+    margin: auto;
+}
+
+/* #endregion Utilities */
+
+/* #region Commons */
+
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* #endregion Commons */
+
+/* #region Header */
+
+header {
+    background-color: #FF6900;
+    box-shadow: 0 1px 10px rgb(179, 179, 179);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.nav_links{
+    display: flex;
+    gap: 1rem;
+    font-size: .9rem;
+    font-weight: 800;
+}
+
+.nav_icons a{
+    margin-left: .25rem;
+}
+
+/* #endregion Header */
