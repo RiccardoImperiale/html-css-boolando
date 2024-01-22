@@ -73,7 +73,7 @@ nav {
 
 .card {
     height: 700px;
-    width: 30%;
+    width: calc(30% - 1rem);
     margin-top: 5rem;
     flex-grow: 1;
 }
