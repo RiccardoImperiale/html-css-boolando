@@ -1,4 +1,3 @@
-
 /* #region Utilities */
 
 * {
@@ -45,15 +44,102 @@ nav {
     padding: 1rem 0;
 }
 
-.nav_links{
+.nav_links {
     display: flex;
     gap: 1rem;
     font-size: .9rem;
     font-weight: 800;
 }
 
-.nav_icons a{
+.nav_icons a {
     margin-left: .25rem;
 }
 
 /* #endregion Header */
+
+/* #region Cards  */
+
+.cards_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.card {
+    height: 700px;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.card_image {
+    background-color: blue;
+    height: 100%;
+    background-image: url('../boolando_images/img/1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1/1;
+    width: 40px;
+    background-color: white;
+    top: 1rem;
+    right: 0;
+}
+
+.promo_badges {
+    display: flex;
+    gap: .2rem;
+    font-size: .8rem;
+    color: white;
+    font-weight: 800;
+    position: absolute;
+    bottom: 3rem;
+}
+
+.badge {
+    padding: .45rem .75rem;
+}
+
+.percentage {
+    background-color: red;
+}
+
+.sustainability {
+    background-color: green;
+}
+
+
+/* Card Text ------------------------------> */
+
+.card_text{
+    margin-top: .25rem;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+h5,
+.price {
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.new_price {
+    font-weight: 600;
+    color: red;
+}
+
+.old_price {
+    text-decoration: line-through;
+}
+
+/* #endregion Cards  */
