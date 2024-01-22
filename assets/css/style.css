@@ -79,15 +79,63 @@ nav {
 }
 
 .card_image {
-    background-color: blue;
     height: 100%;
-    background-image: url('../boolando_images/img/1.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
     position: relative;
 }
+
+/* Card Images ------------------> */
+
+.first_card_image {
+    background-image: url('../boolando_images/img/1.webp');
+}
+
+.first_card_image:hover {
+    background-image: url('../boolando_images/img/1b.webp');
+}
+
+.second_card_image {
+    background-image: url('../boolando_images/img/2.webp');
+}
+
+.second_card_image:hover {
+    background-image: url('../boolando_images/img/2b.webp');
+}
+
+.third_card_image {
+    background-image: url('../boolando_images/img/3.webp');
+}
+
+.third_card_image:hover {
+    background-image: url('../boolando_images/img/3b.webp');
+}
+
+.fourth_card_image {
+    background-image: url('../boolando_images/img/4.webp');
+}
+
+.fourth_card_image:hover {
+    background-image: url('../boolando_images/img/4b.webp');
+}
+
+.fifth_card_image {
+    background-image: url('../boolando_images/img/5.webp');
+}
+
+.fifth_card_image:hover {
+    background-image: url('../boolando_images/img/5b.webp');
+}
+
+.sixth_card_image {
+    background-image: url('../boolando_images/img/6.webp');
+}
+
+.sixth_card_image:hover {
+    background-image: url('../boolando_images/img/6b.webp');
+}
+
 
 .heart {
     position: absolute;
