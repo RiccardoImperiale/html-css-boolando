@@ -149,6 +149,11 @@ nav {
     right: 0;
 }
 
+.heart:hover {
+    color: red;
+    cursor: pointer;
+}
+
 .promo_badges {
     display: flex;
     gap: .2rem;
@@ -170,7 +175,6 @@ nav {
 .sustainability {
     background-color: green;
 }
-
 
 /* Card Text ------------------------------> */
 
